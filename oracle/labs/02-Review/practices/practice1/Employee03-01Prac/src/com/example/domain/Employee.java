@@ -43,10 +43,11 @@ public class Employee {
     }
     
     public void printEmployee (){
-        System.out.println(getId());
-        System.out.println(getName());
-        System.out.println(getSsN());
-        System.out.println(getSalary());
+        System.out.println("ID de empleado: "+getId());
+        System.out.println("Nombre de empleado: "+getName());
+        System.out.println("Numeros de Seguro Social: "+getSsN());
+        System.out.println("Salario del Empleado: "+getSalary());
+        System.out.println("\n");
     }
     
     
